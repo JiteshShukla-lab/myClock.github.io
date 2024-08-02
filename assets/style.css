@@ -1,0 +1,193 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(249, 210, 249, 0.408);
+}
+
+.analogContainer {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  margin-top: 4%;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.881);
+  background: rgb(251, 250, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 5px rgb(146, 121, 249),
+    inset -3px -3px 5px rgb(146, 121, 249);
+}
+
+.center {
+  position: absolute;
+  z-index: 50;
+  background: rgb(0, 0, 0);
+  /* outline:3px solid rgb(9, 9, 9); */
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.number {
+  position: absolute;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.number12 {
+  top: 1%;
+}
+
+.number6 {
+  bottom: 1%;
+}
+
+.number3 {
+  right: 1%;
+}
+
+.number9 {
+  left: 1%;
+}
+
+.number1 {
+  top: 7%;
+  right: 25%;
+}
+
+.number2 {
+  top: 23%;
+  right: 8.5%;
+}
+
+.number5 {
+  bottom: 7%;
+  right: 25%;
+}
+
+.number4 {
+  bottom: 23%;
+  right: 8.5%;
+}
+
+.number11 {
+  top: 7%;
+  left: 25%;
+}
+
+.number10 {
+  top: 23%;
+  left: 8.5%;
+}
+
+.number7 {
+  bottom: 7%;
+  left: 25%;
+}
+
+.number8 {
+  bottom: 23%;
+  left: 8.5%;
+}
+
+.handContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+
+  border-radius: 50%;
+  /* outline:1px solid rgb(0,0,0); */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+}
+
+.hourhandContainer {
+  /* background:rgb(0,0,0); */
+  position: absolute;
+  z-index: 40;
+  width: 100%;
+  height: 8px;
+  transform: rotate(90deg);
+}
+
+.hourhand {
+  background: rgb(43, 43, 43);
+  position: relative;
+  left: 16%;
+  /* z-index:40; */
+  width: 32%;
+  height: 8px;
+}
+
+.minutehandContainer {
+  position: absolute;
+  z-index: 41;
+  width: 100%;
+  height: 6px;
+  transform: rotate(90deg);
+}
+
+.minutehand {
+  background: rgb(103, 1, 103);
+  position: relative;
+  left: 11%;
+
+  width: 37%;
+  height: 6px;
+}
+
+.secondhandContainer {
+  position: absolute;
+  z-index: 41;
+  width: 100%;
+  height: 3px;
+  transform: rotate(90deg);
+}
+
+.secondhand {
+  background: rgb(242, 8, 8);
+  position: relative;
+  /* left:11%; */
+
+  width: 50%;
+  height: 3px;
+}
+
+.logo {
+  position: absolute;
+  top: 20%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.digitalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.digitalContainer span {
+  font-size: 1.3rem;
+}
+
+.digital {
+  background: white;
+  box-shadow: 3px 3px 5px rgb(13, 0, 255);
+  padding: 5px;
+}
+
+.digital hr {
+  margin: 5px;
+}
